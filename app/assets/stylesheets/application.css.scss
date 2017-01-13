@@ -17,17 +17,23 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-body, .navbar {  
-    /* background radient courtesy of  A little thing by @_ighosh */
-    background: #D1913C; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #D1913C , #FFD194); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #D1913C , #FFD194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.navbar, .home-callout {  
+  background: #43C6AC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #43C6AC , #F8FFAE); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #43C6AC , #F8FFAE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
-    border: none;
+  border: none;
 }
 
 h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home-callout {
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: white;
 }
